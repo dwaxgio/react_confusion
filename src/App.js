@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Navbar, NavbarBrand } from "reactstrap"; // Importo elementos que quiero implementar, del componente reactstrap
+import Menu from './components/MenuComponent';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           </NavbarBrand>
         </div>
       </Navbar>
+      <Menu></Menu>
     </div>
   );
 }
